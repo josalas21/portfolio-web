@@ -1,4 +1,5 @@
 export { default as CssSvg } from "./svgs/CssSvg";
+export { default as ExternalLinkSvg } from "./svgs/ExternalLinkSvg";
 export { default as GitSvg } from "./svgs/GitSvg";
 export { default as GithubSvg } from "./svgs/GithubSvg";
 export { default as HtmlSvg } from "./svgs/HtmlSvg";

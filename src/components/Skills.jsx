@@ -10,7 +10,7 @@ import {
 
 function Skills() {
   return (
-    <div className="flex container flex-wrap mx-auto w-3/4 mt-[10rem]">
+    <div className="flex container flex-wrap mx-auto w-3/4 mt-[10rem] text-lg">
       <div className="w-full p-8 h-[10rem] ">
         <h2 className="w-full font-black text-3xl mb-8">02. My stack</h2>
         <p>
@@ -21,7 +21,7 @@ function Skills() {
           to embody these qualities in everything that I do.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center items-center w-full p-8 h-[15rem] ">
+      <div className="flex flex-wrap justify-center items-center w-full p-8 h-[15rem] font-bold ">
         <div className="flex flex-wrap w-1/3 gap-4 justify-center text-center ">
           <h3 className="w-full text-2xl">Foundational Technologies</h3>
           <HtmlSvg />
