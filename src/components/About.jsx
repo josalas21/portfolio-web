@@ -2,7 +2,7 @@ import photo from "../assets/imgs/foto-perfil.webp";
 
 function About() {
   return (
-    <div className="container mx-auto text-lg w-3/4 flex flex-wrap">
+    <div className="container mx-auto text-lg w-3/4 flex flex-wrap mt-[10rem] ">
       <div className="w-1/2 p-8">
         <h2 className="w-full font-black text-3xl mb-8">01. About me</h2>
         <p>
