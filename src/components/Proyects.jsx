@@ -1,6 +1,5 @@
 import { ExternalLinkSvg, GithubSvg, LinkedinSvg } from "../assets/index.js";
 import { PROYECTS } from "../constants.js";
-import Footer from "./Footer.jsx";
 
 function Proyects() {
   return (

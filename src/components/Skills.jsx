@@ -1,13 +1,3 @@
-import {
-  CssSvg,
-  GitSvg,
-  HtmlSvg,
-  JsSvg,
-  NextSvg,
-  ReactSvg,
-  TailwindSvg,
-} from "../assets";
-
 function Skills() {
   return (
     <div className="min-h-screen bg-[#000814] text-[#61A5C2] ">
