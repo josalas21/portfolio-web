@@ -2,8 +2,8 @@ import photo from "../assets/imgs/foto-perfil.webp";
 
 function About() {
   return (
-    <div className="min-h-screen bg-[#000814] text-[#61A5C2] ">
-      <div className="container mx-auto text-lg w-3/4 flex flex-wrap mt-[10rem] ">
+    <div className="min-h-screen bg-[#000814] text-[#61A5C2]" id="ABOUT">
+      <div className="container mx-auto text-lg w-3/4 flex flex-wrap">
         <div className="w-1/2 p-8">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
             <span className="text-[#00FFBF] font-light">01.</span> About me

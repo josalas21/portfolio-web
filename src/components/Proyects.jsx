@@ -3,7 +3,10 @@ import { PROYECTS } from "../constants.js";
 
 function Proyects() {
   return (
-    <div className="h-[100rem] bg-[#000814] text-[#61A5C2] ">
+    <div
+      className="h-[100rem] bg-[#000814] text-[#61A5C2] mt-[-5rem] "
+      id="PROYECTS"
+    >
       <div className="flex container flex-wrap mx-auto w-3/4">
         <div className="w-full p-8 h-[30rem] flex flex-wrap ">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">

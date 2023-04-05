@@ -1,7 +1,7 @@
 function Skills() {
   return (
-    <div className="min-h-screen bg-[#000814] text-[#61A5C2] ">
-      <div className="flex container flex-wrap mx-auto w-3/4 mt-[10rem] text-lg">
+    <div className="min-h-screen bg-[#000814] text-[#61A5C2]" id="SKILLS">
+      <div className="flex container flex-wrap mx-auto w-3/4 text-lg">
         <div className="w-full p-8 h-[10rem] ">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
             <span className="text-[#00FFBF] font-light">02.</span> Skills

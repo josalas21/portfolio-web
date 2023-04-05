@@ -2,8 +2,8 @@ import { GithubSvg, LinkedinSvg } from "../assets";
 
 function Hero() {
   return (
-    <div className="min-h-screen bg-[#000814] text-[#61A5C2]">
-      <div className="container mx-auto text-lg w-3/4 flex flex-col flex-wrap mt-[10rem] p-8 ">
+    <div className="min-h-screen bg-[#000814] text-[#61A5C2] pt-[5rem] ">
+      <div className="container mx-auto text-lg w-3/4 flex flex-col flex-wrap p-8 ">
         <span className="text-[#00FFBF] ">Hi, my name is</span>
         <h1 className="text-7xl font-bold my-6 text-[#A9D6E5]">Josue Salas.</h1>
         <h1 className="text-7xl font-bold">Front-end developer.</h1>
