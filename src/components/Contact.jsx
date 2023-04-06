@@ -1,12 +1,12 @@
 function Contact() {
   return (
-    <div className="min-h-screen bg-[#000814] text-[#61A5C2]" id="CONTACT">
-      <div className="flex container flex-wrap mx-auto w-3/4 mt-[10rem] text-lg">
-        <div className="w-full p-8">
+    <div className="h-full bg-[#000814] text-[#61A5C2]" id="contact">
+      <div className="flex container flex-wrap mx-auto w-3/4 pt-20 md:pt-[10rem] text-lg">
+        <div className="w-full md:p-8">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
             <span className="text-[#00FFBF] font-light">04.</span> Get in touch
           </h2>
-          <div className="w-[40rem] flex flex-wrap gap-2 mx-auto mt-20">
+          <div className="md:w-[40rem] flex flex-wrap gap-2 mx-auto md:mt-20">
             <p>
               I'm always interested in hearing from people who want to discuss
               potential collaboration or job opportunities.
@@ -21,6 +21,7 @@ function Contact() {
               </a>
             </p>
             <p>Looking forward to hearing from you!</p>
+            <span className="w-screen text-center py-10 text-4xl">🚀</span>
           </div>
         </div>
       </div>

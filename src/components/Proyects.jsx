@@ -1,19 +1,19 @@
-import { ExternalLinkSvg, GithubSvg, LinkedinSvg } from "../assets/index.js";
 import { PROYECTS } from "../constants.js";
+import github from "../assets/svgs/github.svg";
 
 function Proyects() {
   return (
     <div
-      className="h-[100rem] bg-[#000814] text-[#61A5C2] mt-[-5rem] "
-      id="PROYECTS"
+      className="h-full bg-[#000814] text-[#61A5C2]  pt-20 md:pt-0"
+      id="proyects"
     >
       <div className="flex container flex-wrap mx-auto w-3/4">
-        <div className="w-full p-8 h-[30rem] flex flex-wrap ">
-          <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
+        <div className="w-full md:p-8 h-full flex flex-wrap ">
+          <h2 className="w-full font-bold text-3xl md:mb-8 text-[#A9D6E5]">
             <span className="text-[#00FFBF] font-light">03.</span> Proyects
           </h2>
           {PROYECTS.map((proyect) => (
-            <div className="w-full flex flex-wrap my-24 justify-evenly gap-y-4">
+            <div className="w-full flex flex-wrap my-8 md:my-24 justify-evenly gap-y-4">
               <div className="w-[25rem] h-[20rem] flex flex-wrap">
                 <h3 className="w-full text-3xl text-[#A9D6E5]">
                   {proyect.title}
@@ -32,7 +32,7 @@ function Proyects() {
                     href={proyect.github}
                     target="_blank"
                   >
-                    <GithubSvg />
+                    <img src={github} alt="github" height={40} width={40} />
                   </a>
 
                   <a
@@ -40,13 +40,13 @@ function Proyects() {
                     href={proyect.github}
                     target="_blank"
                   >
-                    <ExternalLinkSvg />
+                    <img src={github} alt="github" height={40} width={40} />
                   </a>
                 </div>
               </div>
 
-              <div className="mockup-window border bg-base-300 w-[25rem] h-[20rem] ">
-                <div className="flex justify-center px-4 py-16">Hello!</div>
+              <div className="mockup-window border bg-base-300 w-[25rem] h-[18rem] ">
+                <img src={proyect.img} alt="" />
               </div>
             </div>
           ))}
