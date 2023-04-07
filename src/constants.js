@@ -9,6 +9,9 @@ import react from "./assets/svgs/react.svg";
 import redux from "./assets/svgs/redux.svg";
 import git from "./assets/svgs/git.svg";
 import wordpress from "./assets/svgs/wordpress.svg";
+import react_router from "./assets/svgs/react_router.svg";
+import react_query from "./assets/svgs/react_query.svg";
+import data from "./assets/svgs/data.svg";
 
 export const PROYECTS = [
   {
@@ -16,11 +19,11 @@ export const PROYECTS = [
     description:
       "This is a web application that displays information about characters, episodes, and locations from the popular TV show Rick and Morty.",
     techs: [
-      "ReactJS",
-      "React Query",
-      "React Router",
-      "TailwindCSS",
-      "Rick and Morty API",
+      { name: "ReactJS", img: react },
+      { name: "React Query", img: react_query },
+      { name: "React Router", img: react_router },
+      { name: "TailwindCSS", img: tailwind },
+      { name: "Rick and Morty API", img: data },
     ],
     github: "https://github.com/JosueSalasR/rick-morty",
     img: rickmorty_page_img,
@@ -29,7 +32,10 @@ export const PROYECTS = [
     title: "Ecommerce Product Page",
     description:
       "This is a product page built with React. It showcases a product with an image, a title, a price, and a description. Users can add the product to their cart and see the total price of their cart.",
-    techs: ["ReactJS", "TailwindCSS"],
+    techs: [
+      { name: "ReactJS", img: react },
+      { name: "TailwindCSS", img: tailwind },
+    ],
     github: "https://github.com/JosueSalasR/ecommerce-product-page",
     img: product_page_img,
   },
@@ -37,7 +43,10 @@ export const PROYECTS = [
     title: "Portfolio Page",
     description:
       "This is my personal front-end portfolio, developed using React. Here, you'll find a showcase of my skills and projects in web interface development.",
-    techs: ["ReactJS", "TailwindCSS", "DaisyUI"],
+    techs: [
+      { name: "ReactJS", img: react },
+      { name: "TailwindCSS", img: tailwind },
+    ],
     github: "https://github.com/JosueSalasR/portfolio-web",
     img: portfolio_page_img,
   },

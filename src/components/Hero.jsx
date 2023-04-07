@@ -1,4 +1,5 @@
 import github from "../assets/svgs/github.svg";
+import linkedin from "../assets/svgs/linkedin.svg";
 
 function Hero() {
   return (
@@ -18,7 +19,7 @@ function Hero() {
             <img src={github} alt="github" height={40} width={40} />
           </a>
           <a className="text-[#00FFBF] hover:scale-125" href="">
-            <img src={github} alt="github" height={40} width={40} />
+            <img src={linkedin} alt="github" height={40} width={40} />
           </a>
         </div>
       </div>
