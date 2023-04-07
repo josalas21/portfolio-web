@@ -4,17 +4,16 @@ import external_link from "../assets/svgs/external_link.svg";
 
 function Proyects() {
   return (
-    <div
-      className="h-full bg-[#000814] text-[#61A5C2]  pt-20 md:pt-0"
-      id="proyects"
-    >
+    <div className="h-full bg-[#000814] text-[#61A5C2]  pt-20 " id="proyects">
       <div className="flex container flex-wrap mx-auto w-3/4">
         <div className="w-full md:p-8 h-full flex flex-wrap ">
           <h2 className="w-full font-bold text-3xl md:mb-8 text-[#A9D6E5]">
-            <span className="text-[#00FFBF] font-light">03.</span> Proyects
+            <div className="divider">
+              <span className="text-[#00FFBF] font-light">03.</span> Proyects
+            </div>
           </h2>
           {PROYECTS.map((proyect) => (
-            <div className="w-full flex flex-wrap my-8 md:my-24 justify-evenly gap-y-4">
+            <div className="w-full flex flex-wrap my-8 md:my-12 justify-evenly gap-y-4">
               <div className="w-[25rem] h-[20rem] flex flex-wrap">
                 <h3 className="w-full flex justify-between text-2xl items-center text-[#A9D6E5]">
                   {proyect.title}

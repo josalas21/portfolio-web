@@ -1,10 +1,13 @@
 function Contact() {
   return (
     <div className="h-full bg-[#000814] text-[#61A5C2]" id="contact">
-      <div className="flex container flex-wrap mx-auto w-3/4 pt-20 md:pt-[10rem] text-lg">
+      <div className="flex container flex-wrap mx-auto w-3/4 pt-20  text-lg">
         <div className="w-full md:p-8">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
-            <span className="text-[#00FFBF] font-light">04.</span> Get in touch
+            <div className="divider">
+              <span className="text-[#00FFBF] font-light">04.</span> Get in
+              touch
+            </div>
           </h2>
           <div className="md:w-[40rem] flex flex-wrap gap-2 mx-auto md:mt-20">
             <p>

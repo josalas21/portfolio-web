@@ -3,17 +3,19 @@ import { SKILLS } from "../constants";
 function Skills() {
   return (
     <div
-      className="md:min-h-screen h-full bg-[#000814] text-[#61A5C2] pt-20 md:pt-0"
+      className="md:min-h-screen h-full bg-[#000814] text-[#61A5C2] pt-20"
       id="skills"
     >
       <div className="flex container flex-wrap mx-auto w-3/4 text-lg">
         <div className="w-full md:p-8 md:h-full ">
           <h2 className="w-full font-bold text-3xl mb-8 text-[#A9D6E5]">
-            <span className="text-[#00FFBF] font-light">02.</span> Skills
+            <div className="divider">
+              <span className="text-[#00FFBF] font-light">02.</span> Skills
+            </div>
           </h2>
           <p>
-            I am constantly seeking out new challenges to improve my abilities,
-            and I am always eager to explore new technologies and frameworks. I
+            I'm constantly seeking out new challenges to improve my abilities,
+            and I'm always eager to explore new technologies and frameworks. I
             believe that self-motivation and the willingness to learn are
             crucial attributes that every successful developer must possess, and
             I strive to embody these qualities in everything that I do.
