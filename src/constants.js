@@ -172,7 +172,7 @@ export const PROJECTS_CONTENT = {
         { name: "TailwindCSS", img: tailwind },
       ],
       github: "https://github.com/JosueSalasR/portfolio-web",
-      link: "https://rick-morty-josalas21.vercel.app",
+      link: "https://portfolio-josalas21.vercel.app",
       img: portfolio_page_img,
     },
   ],
