@@ -1,9 +1,4 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Proyects from "./components/Proyects";
-import Skills from "./components/Skills";
+import { Navbar, Hero, About, Skills, Projects, Contact } from "./sections";
 
 function App() {
   return (
@@ -12,7 +7,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Proyects />
+      <Projects />
       <Contact />
     </>
   );
