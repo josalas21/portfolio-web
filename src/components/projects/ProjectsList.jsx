@@ -4,7 +4,7 @@ export const ProjectsList = ({ CONTENT }) => {
   return (
     <>
       {CONTENT.map((project) => (
-        <Project project={project} />
+        <Project project={project} key={project.title} />
       ))}
     </>
   );
