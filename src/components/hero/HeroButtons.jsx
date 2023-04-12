@@ -4,7 +4,7 @@ import { IconButton } from "../common/IconButton";
 
 export const HeroButtons = () => {
   return (
-    <div className="flex gap-8">
+    <div className="flex gap-8 justify-center md:justify-start pt-8 md:pt-0">
       <IconButton
         src={github}
         alt="github"

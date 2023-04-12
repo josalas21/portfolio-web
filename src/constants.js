@@ -144,7 +144,7 @@ export const PROJECTS_CONTENT = {
         { name: "ReactJS", img: react },
         { name: "React Query", img: react_query },
         { name: "React Router", img: react_router },
-        { name: "TailwindCSS", img: tailwind },
+        { name: "Tailwind", img: tailwind },
         { name: "Rick and Morty API", img: data },
       ],
       github: "https://github.com/JosueSalasR/rick-morty",
@@ -157,7 +157,7 @@ export const PROJECTS_CONTENT = {
         "This is a product page built with React. It showcases a product with an image, a title, a price, and a description. Users can add the product to their cart and see the total price of their cart.",
       techs: [
         { name: "ReactJS", img: react },
-        { name: "TailwindCSS", img: tailwind },
+        { name: "Tailwind", img: tailwind },
       ],
       github: "https://github.com/JosueSalasR/ecommerce-product-page",
       link: "https://ecommerce-product-josalas21.vercel.app",
@@ -169,7 +169,7 @@ export const PROJECTS_CONTENT = {
         "This is my personal front-end portfolio, developed using React. Here, you'll find a showcase of my skills and projects in web interface development.",
       techs: [
         { name: "ReactJS", img: react },
-        { name: "TailwindCSS", img: tailwind },
+        { name: "Tailwind", img: tailwind },
       ],
       github: "https://github.com/JosueSalasR/portfolio-web",
       link: "https://portfolio-josalas21.vercel.app",
