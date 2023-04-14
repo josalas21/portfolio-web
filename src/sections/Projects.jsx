@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <div
       className="h-full bg-[#000814] text-[#61A5C2] pt-10 md:pt-20 "
-      id="proyects"
+      id="projects"
     >
       <div className="flex container flex-wrap mx-auto w-3/4">
         <div className="w-full md:p-8 h-full flex flex-wrap ">

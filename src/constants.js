@@ -28,8 +28,8 @@ export const NAVBAR_LINKS = [
   },
   {
     num: "0.3 ",
-    section: "Proyects",
-    href: "#proyects",
+    section: "Projects",
+    href: "#projects",
   },
   {
     num: "0.4 ",
